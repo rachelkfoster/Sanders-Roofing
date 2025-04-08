@@ -6,6 +6,7 @@ body{
 nav {
     text-align: center;
     background-color: rgba(52, 152, 235, 0.8);
+    font-size: 20px;
 }
 
 nav>ul {
@@ -32,6 +33,35 @@ li {
     padding: 30px 100px;
     font-weight: 600;
 }
+
+.aboutUs {
+    text-align: center;
+    margin: 75px 0px;
+}
+
+.biography {
+    padding-top: 100px;
+}
+
+
+img.align-left {
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.column2 {
+    margin-top: 100px;
+    justify-content: right;
+    float: right;
+}
+
+img.align-right {
+    float: right;
+    margin-left: 10px;
+    margin-top: 300px;
+}
+
 
 .intake {
     background-image: url(GettyImages-916156266.jpg);
@@ -62,7 +92,7 @@ form {
 #fname, #lname {
     padding: 15px 20px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 #email, 
@@ -123,12 +153,17 @@ form {
 
 .subtitle {
     font-weight: 900;
-    font-size: larger;
+    font-size: 24px;
     text-align: center;
 }
 
 .summary, .information {
-    padding-left: 40px;
+    text-align: center;
+}
+
+.information {
+    padding-bottom: 40px;
+    font-size: 20px;
 }
 
 footer {
