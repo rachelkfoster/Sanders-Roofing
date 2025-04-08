@@ -127,8 +127,8 @@ form {
     text-align: center;
 }
 
-.information {
-    
+.summary, .information {
+    padding-left: 40px;
 }
 
 footer {
