@@ -1,14 +1,17 @@
+/* All pages*/
 body{
     background-color: rgba(7, 128, 227, .6);
     min-height: 100vh;
 }
 
+/* All pages*/
 nav {
     text-align: center;
     background-color: rgba(52, 152, 235, 0.8);
     font-size: 20px;
 }
 
+/* All pages*/
 nav>ul {
     padding: 40px;
 }
@@ -24,25 +27,32 @@ img {
     margin-top: 10px;
 }
 
+/* All pages*/
 ul {
     list-style-type: none;
 }
 
+/* All pages*/
 li {
     display: inline;
     padding: 30px 100px;
     font-weight: 600;
 }
 
+/* Only on About Us page*/
+.AboutUs {
+    text-align: center;
+    margin: 100px;
+}
+
 .aboutUs {
     text-align: center;
-    margin: 75px 0px;
+    margin: 250px 0px 100px;
 }
 
 .biography {
-    padding-top: 100px;
+    padding-top: 200px;
 }
-
 
 img.align-left {
     float: left;
@@ -50,18 +60,34 @@ img.align-left {
     margin-top: 0px;
 }
 
-.column2 {
-    margin-top: 100px;
-    justify-content: right;
-    float: right;
-}
-
-img.align-right {
-    float: right;
-    margin-left: 10px;
+img.align-left2 {
+    float: left;
+    margin-right: 10px;
     margin-top: 300px;
 }
 
+.biography2 {
+    padding-top: 1050px;
+}
+
+.column2 {
+    margin-top: 100px;
+    justify-content: right;
+    
+}
+
+img.align-right {
+    padding-top: 250px;
+    float: right;
+    padding-bottom: 100px;
+}
+
+p.align-right {
+    float: right;
+    margin-right: 10px;
+    text-align: right;
+    padding-top: 300px;
+}
 
 .intake {
     background-image: url(GettyImages-916156266.jpg);
@@ -164,6 +190,19 @@ form {
 .information {
     padding-bottom: 40px;
     font-size: 20px;
+}
+
+.area2 {
+    padding-left: 300px;
+}
+
+img.expansion {
+    float: left;
+    margin-right: 10px;
+}
+
+p.expansion {
+    margin-top: 125px;
 }
 
 footer {
