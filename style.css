@@ -2,6 +2,9 @@
 body{
     background-color: rgba(7, 128, 227, .6);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 /* All pages*/
@@ -105,12 +108,12 @@ p.align-right {
 }
 
 .intake {
-    background-image: url(GettyImages-916156266.jpg);
+    background-image: url(roof-shot.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 
 .fill {
@@ -220,8 +223,14 @@ p.expansion {
     margin-top: 125px;
 }
 
-img.shingle, img.metal, img.fortified {
+img.shingle, img.metal, img.fortified, img.repairs {
     padding-right: 10px;
+}
+
+img.repairs {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 img.fortified {
@@ -232,6 +241,11 @@ img.fortified {
 p.shingle, p.metal, p.repairs, p.fortified {
     padding: 10px;
     float: left;
+}
+
+p.repairs {
+    padding-top: 30px;
+    width: 20%;
 }
 
 .shingle-button, .metal-button, .fortified-button {
@@ -248,12 +262,38 @@ p.shingle, p.metal, p.repairs, p.fortified {
     margin-right: 50%;
 }
 
+.team {
+    margin-bottom: 400px;
+}
+
+.testimonial-title {
+    text-align: center;
+    margin: 75px auto;
+}
+
+.customer {
+    font-size: 20px;
+    margin: 30px 10px;
+    padding-bottom: 30px;
+}
+
+.star {
+    margin-left: 10px;
+    font-size: 200%;
+    color: yellow;
+}
+
+.review-quote {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     background-color: rgba(52, 152, 235, 0.8);
     text-align: center;
     padding: 100px 100px;
     width: 100%;
-    position: flex;
+    position: relative;
     height: 100px;
     bottom: 0;
     left: 0;
