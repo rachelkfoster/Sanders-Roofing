@@ -14,6 +14,29 @@ nav {
     font-size: 20px;
 }
 
+/* All pages*/
+nav>ul {
+    padding: 40px;
+}
+
+/* All pages*/
+ul {
+    list-style-type: none;
+}
+
+/* All pages*/
+li {
+    display: inline;
+    padding: 30px 100px;
+    font-weight: 600;
+}
+
+a:is(:link, :active, :visited).active {
+    color: rgb(10, 14, 247);
+    /*background-color: rgba(150, 193, 236, 0.384);*/
+    border-bottom: 4px solid rgb(150, 193, 236);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -28,11 +51,6 @@ nav {
     padding-top: 2%;
 }
 
-/* All pages*/
-nav>ul {
-    padding: 40px;
-}
-
 .logo {
     width: 30%;
     height: auto;
@@ -43,18 +61,6 @@ nav>ul {
 img {
     width: 30%;
     margin-top: 5px;
-}
-
-/* All pages*/
-ul {
-    list-style-type: none;
-}
-
-/* All pages*/
-li {
-    display: inline;
-    padding: 30px 100px;
-    font-weight: 600;
 }
 
 /* Only on About Us page*/
